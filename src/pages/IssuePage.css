@@ -1,0 +1,65 @@
+.issue-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #e0f8ff; 
+}
+
+.card {
+  background-color: #6e8db4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+.back-button {
+  background-color: #aa3772;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+
+.back-button:hover {
+  background-color: #832254;
+}
+
+.issue-info {
+  display: block; 
+  margin-bottom: 20px;
+  color: #fff; 
+  font-size: 14px;
+}
+.issue-info span {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff; 
+}
+
+.issue-summary p {
+  color: #fff; 
+  line-height: 1.6;
+}
+
+.github-link {
+  color: #aa3772;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
